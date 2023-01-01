@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STS - Sewa The Serving</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./seva.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">STS</a>
+      </h1>
+      <select name="language" class="lang-switch">
+        <option value="english">English</option>
+        <option value="french">French</option>
+        <option value="spanish">Spanish</option>
+      </select>
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+      <nav class="navbar" data-navbar>
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+        <a href="#" class="logo">STS</a>
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>
+              <span>Service</span>
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#donate" class="navbar-link" data-nav-link>
+              <span>Donate</span>
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#event" class="navbar-link" data-nav-link>
+              <span>Event</span>
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-action">
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+        <button class="btn btn-primary">
+          <span>Donation</span>
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <!-- 
+        - #HERO
+      -->
+      <section class="hero" id="home">
+        <div class="container">
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-white.png" width="32" height="7" alt="Wavy line">
+            <span>Welcome to STS </span>
+          </p>
+          <h2 class="h1 hero-title">
+            Our Service to <strong>Humanity</strong>
+          </h2>
+          <p class="hero-text">
+            "Service to the needy is the service to God."<br>SEVA THE SERVING TRUST have been formed to provide help and support to the underserved and those who suffer.
+          </p>
+
+          <button class="btn btn-primary">
+            <span>Donation</span>
+
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h2 class="h4 item-title">Education for underserved</h2>
+                <p class="item-text">
+                  "Education for all, regardless of circumstance."
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Rakt Seva</h3>
+
+                <p class="item-text">
+                  "Service to humanity is service to divinity."
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Women empowerment</h3>
+ 
+                <p class="item-text">
+                  "Empowering women is empowering society."
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Save Environment</h3>
+
+                <p class="item-text">
+                  "Protect the planet and its resources for a healthy, thriving world."
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+
+            <h2 class="deco-title">About Us</h2>
+
+            <img src="./assets/images/deco-img.png" width="58" height="261" alt="" class="deco-img">
+
+            <div class="banner-row">
+
+              <div class="banner-col">
+                <img src="./5.png" width="315" height="380" loading="lazy" alt="Tiger" class="about-img w-100">
+
+                <img src="./10.png" width="386" height="250" loading="lazy" alt="Panda"
+                  class="about-img about-img-2 w-100">
+              </div>
+
+              <div class="banner-col">
+                <img src="./13.png" width="250" height="277" loading="lazy" alt="Elephant"
+                  class="about-img about-img-3 w-100">
+
+                <img src="./19.png" width="315" height="380" loading="lazy" alt="Deer" class="about-img w-100">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">
+              <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+              <span>Why Choose Us</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              Raise Your Hand to Save <strong>World's Youth Life</strong>
+            </h2>
+
+            <ul class="tab-nav">
+
+              <li>
+                <button class="tab-btn active">Our Mission</button>
+              </li>
+
+              <li>
+                <button class="tab-btn ">Our Vision</button>
+              </li>
+
+              <li>
+                <button class="tab-btn ">Next Plan</button>
+              </li>
+
+            </ul>
+
+            <div class="tab-content">
+
+              <p class="section-text">
+                To provide access to resources and opportunities for individuals and families living in poverty, helping
+                them to break the cycle of poverty and build a better future.
+              </p>
+
+              <ul class="tab-list">
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Foods</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Education</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For awareness</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For women empowerment</p>
+                </li>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text">Charity For Environment</p>
+                </li>
+
+              </ul>
+
+              <button class="btn btn-secondary">
+                <span>Learn More Us</span>
+
+                <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <div class="cta-content">
+            <h2 class="h2 section-title">Trusted Global Partners</h2>
+
+            <button class="btn btn-outline">
+              <a href="https://forms.gle/Poo8xg6DhAB1NCNy8">
+                Become a partner </a>
+              <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="./brand.png" width="520" height="228" loading="lazy" alt="Fox" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" style="background-image: url('./assets/images/service-map.png')">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>What We Do</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            We Work Differently to <strong>keep The Youth Safe</strong>
+          </h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Save Environment</h3>
+
+                <p class="card-text">
+                  Saving the environment means taking actions to protect the natural world and its resources, such as
+                  air, water, and biodiversity.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Save Youth</h3>
+
+                <p class="card-text">
+                  Saving youth can refer to a variety of efforts to support and protect young people. <br> <br> <br>
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="flower-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Awareness program</h3>
+
+                <p class="card-text">
+                  An awareness program is a type of initiative that is designed to increase understanding and knowledge
+                  about a particular issue .
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Special Skills classes</h3>
+
+                <p class="card-text">
+                  These classes can be focused on a wide range such as sewing,computer
+                  programming or any other activity that requires skills.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
+      <!-- 
+        - #DONATE
+      -->
+      <!-- 
+        - #TESTIMONIALS
+      -->
+      <section class="testi">
+
+        <div class="testi-content">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>Our Testimonials</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            What People Say About <strong>Our Organization</strong>
+          </h2>
+
+          <div class="testi-card">
+
+            <figure class="card-avatar">
+              <img src="./Untitled design (12).png" width="60" height="60" loading="lazy" alt="">
+            </figure>
+
+            <div>
+              <blockquote class="testi-text">
+                I recently had the opportunity to work with an NGO that is focused on supporting underserved children,
+                and I was truly impressed by the dedication and commitment of the organization.
+                From the moment I began working with them, it was clear that their primary concern was the well-being
+                and future success of the children they serve. They went above and beyond to provide educational
+                support, healthcare, and other essential services to children in disadvantaged communities, and they
+                worked tirelessly to improve the lives of these children and give them the opportunities they deserve.
+                
+              </blockquote>
+
+              <h3 class="testi-name">Ayushi Rastogi</h3>
+              <p class="testi-title">Joint secretary</p>
+            </div>
+          </div>
+        </div>
+        <figure class="testi-banner">
+          <img src="./childrens.jpeg" width="960" height="846" loading="lazy"
+            alt="Rhinoceros" class="img-cover">
+        </figure>
+      </section>
+      <!-- 
+        - #PARTNER
+      -->
+
+      <section class="section partner">
+        <div class="container">
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-1.png" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="gray">
+
+            <img src="./assets/images/partner-1-active.png" width="157" height="55" loading="lazy" alt="Children Fund"
+              class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-2.png" width="163" height="55" loading="lazy" alt="Non Profit Agency"
+              class="gray">
+
+            <img src="./assets/images/partner-2-active.png" width="163" height="55" loading="lazy"
+              alt="Non Profit Agency" class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-3.png" width="149" height="55" loading="lazy" alt="Rise Hand Help Us"
+              class="gray">
+
+            <img src="./assets/images/partner-3-active.png" width="149" height="55" loading="lazy"
+              alt="Rise Hand Help Us" class="color">
+          </a>
+
+          <a href="#" class="partner-logo">
+            <img src="./assets/images/partner-4.png" width="169" height="58" loading="lazy" alt="Helping" class="gray">
+
+            <img src="./assets/images/partner-4-active.png" width="169" height="58" loading="lazy" alt="Helping"
+              class="color">
+          </a>
+
+        </div>
+      </section>
+      <!-- 
+        - #EVENT
+      -->
+      <section class="section event" id="event">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+
+            <span>Event & Program</span>
+
+            <img src="./assets/images/subtitle-img-green.png" width="32" height="7" alt="Wavy line">
+          </p>
+
+          <h2 class="h2 section-title">
+            Our Most Popular Causes For <strong>Building Fund</strong>
+          </h2>
+
+          <ul class="event-list">
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="01-05">
+                  <span class="month">Nov</span>
+
+                  <span class="date">22</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Education</p>
+
+                    <h3 class="card-title">Better Education For Every Child.</h3>
+
+                    <p class="card-text">
+                      "Education is the most powerful weapon which you can use to change the world."
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>View Events</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="02-23">
+                  <span class="month">July</span>
+                  <span class="date">17</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Women's Academy</p>
+
+                    <h3 class="card-title">"The education of women is the best way to save the world."</h3>
+
+                    <p class="card-text">
+                      At our women's academy, we are dedicated to providing education and empowerment to underserved
+                      women. <br> We believe that every woman has the right to access quality education and the
+                      opportunity to realize her full potential.
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>View Events</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="03-27">
+                  <span class="month">Dec</span>
+
+                  <span class="date">19</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Awareness Drives</p>
+
+                    <h3 class="card-title">"Awareness is the first step towards change."</h3>
+
+                    <p class="card-text">
+                      Awareness drives are important initiatives that aim to educate and inform people about a
+                      particular issue or cause. <br> These drives can be conducted through various mediums such as
+                      social media, print media, radio, and television.
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>View Events</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-secondary">
+            <span>Learn More Us</span>
+
+            <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+      </section>
+      <!-- 
+        - #INSTA POST
+      -->
+
+      <section class="insta-post">
+
+        <ul class="insta-post-list">
+
+          <li class="insta-post-item">
+            <a href="https://www.instagram.com/sevatheserving/" class="insta-post-link">
+              <img src="./hi/1.png" width="320" height="300" loading="lazy" alt="Lion" class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="https://www.instagram.com/sevatheserving/" class="insta-post-link">
+              <img src="./hi/2.png" width="320" height="300" loading="lazy" alt="Deer" class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="https://www.instagram.com/sevatheserving/" class="insta-post-link">
+              <img src="./hi/3.png" width="320" height="300" loading="lazy" alt="Wild Bear" class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="https://www.instagram.com/sevatheserving/" class="insta-post-link">
+              <img src="./hi/4.png" width="320" height="300" loading="lazy" alt="Deer" class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="insta-post-item">
+            <a href="https://www.instagram.com/sevatheserving/" class="insta-post-link">
+              <img src="./hi/5.png" width="320" height="300" loading="lazy" alt="Horses" class="img-cover">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+  </main>
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Terms of use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy & Policy</a>
+        </li>
+
+      </ul>
+      <p class="copyright">
+        Copyright 2022 <a href="#" class="copyright-link">sewa the serving</a>. All Rights Reserved.
+      </p>
+      <h4>Designed by :-
+        <div class="dec"><a href="https://www.instagram.com/jago_creations/  "> Jago Creations</a></div>
+      </h4>
+    </div>
+  </footer>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./scrpit.js"></script>
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
